@@ -1,0 +1,19 @@
+ 
+--mvn archetype:generate -DgroupId=com.bharath -DartifactId=hellomaven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+--mvn install
+--java -cp target/hellomaveen-1.0-SNAPSHOT.jar com.hemanth.App
+--coordinates
+  groupId:artifactId:packaging:verion
+--repository
+	remote
+	enterprize
+	local
+--mvn install -DskipTests
+--scopes
+	compile
+	runtime
+	provided
+	test
+	import
+	system
+ 
